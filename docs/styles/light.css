@@ -21,7 +21,7 @@
         background-color: #d65d0e;
     }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: light){
     @font-face {
         font-family: "InterMedium";
         src: url('Inter-Medium.woff') format('woff');

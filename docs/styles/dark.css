@@ -1,0 +1,77 @@
+
+.bg {
+    background-color: #282828;
+}
+.green {
+    background-color: #98971a;
+}
+.blue {  
+    background-color: #458588;
+    color: #83a598;
+}
+.purple {
+    background-color: #b16286;
+    color: #d3869b;
+}
+.gray {
+    background-color: #a89984;
+    color: #ebdbb2; /* full gray */
+}
+.orange {
+    background-color: #d65d0e;
+}
+@media (prefers-color-scheme: light) {
+    @font-face {
+        font-family: "InterMedium";
+        src: url('Inter-Medium.woff') format('woff');
+    }
+    body {
+        font-family: "InterMedium";
+        background-color: #282828;
+        color: #ebdbb2;
+        margin: 0;
+    }
+    header {
+        background-color: #458588;
+        color: #fff;
+        padding: .7em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    header.container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: left;
+        align-items: center;
+    }
+    div.main {
+        position: relative;
+        padding: .7em;
+        margin: 4em 0;
+    }
+    footer {
+        background-color: #a89984;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+    footer ul {
+        list-style-type: none;
+        padding-left: .7em;
+    }
+    li {
+        line-height: 1.1em;
+        display: inline;
+        padding-right: .2em;
+    }
+    li a {
+        text-decoration: none;
+        color: #ebdbb2; 
+    }
+    li a:hover {
+        color: #111;
+        font-size: larger;
+    }
+}

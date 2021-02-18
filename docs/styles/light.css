@@ -1,0 +1,84 @@
+
+    .bg {
+        background-color: #fbf1c7;
+    }
+    .green {
+        background-color: #98971a;
+    }
+    .blue {  
+        background-color: #458588;
+        color: #076678;
+    }
+    .purple {
+        background-color: #b16286;
+        color: #8f3f71;
+    }
+    .gray {
+        background-color: #7c6f64;
+        color: #3c3836; /* full gray */
+    }
+    .orange {
+        background-color: #d65d0e;
+    }
+
+@media (prefers-color-scheme: dark){
+    @font-face {
+        font-family: "InterMedium";
+        src: url('Inter-Medium.woff') format('woff');
+    }
+    body {
+        font-family: "InterMedium";
+        background-color: #fbf1c7;
+        color: #3c3836;
+        margin: 0;
+    }
+    header {
+        background-color: #458588;
+        color: #fff;
+        padding: .3em .7em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    div.box {
+        /* flex: 1 1 150px;  Stretching: */
+        flex: 1;
+    }
+    @media only screen and (max-width: 600px) {
+        div.box {
+            margin-bottom: -1.2em;
+        }
+    }
+    div.main {
+        position: relative;
+        padding: .7em;
+        margin: 4em 0;
+    }
+    footer {
+        background-color: #7c6f64;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+    footer ul {
+        list-style-type: none;
+        padding-left: .7em;
+    }
+    li {
+        line-height: 1.1em;
+        display: inline;
+        padding-right: .2em;
+    }
+    li a {
+        text-decoration: none;
+        color: #ebdbb2; 
+    }
+    li a:hover {
+        color: #fbf1c7;
+        font-size: larger;
+    }
+}

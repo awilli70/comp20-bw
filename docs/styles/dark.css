@@ -120,4 +120,7 @@
         text-decoration: none;
         color: #d3869b;
     }
+    a:hover {
+        color: #b16286;
+    }
 }

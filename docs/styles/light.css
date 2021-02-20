@@ -43,6 +43,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
+        z-index: 999;
     }
     div.box {
         /* flex: 1 1 150px;  Stretching: */
@@ -87,7 +88,30 @@
         font-size: larger;
     }
     h1 {
-        font-size: medium;
+        font-size: xx-large;
         color: #458588;
+    }
+    .imgdiv {
+        float: right;
+        position: relative;
+        margin-top: -2.6em;
+        width: 36em;
+    }
+    @media only screen and (max-width: 414px) {
+        .imgdiv {
+            margin: auto auto;
+            float: none;
+            position: relative;
+            width: 14em;
+        }
+    }
+    .imgdiv img {
+            width: inherit;
+            border: solid 5px #b16286;
+            border-radius: 1em;
+    }
+    a {
+        text-decoration: none;
+        color: #d3869b;
     }
 }

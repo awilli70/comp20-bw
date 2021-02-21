@@ -1,26 +1,3 @@
-
-    .bg {
-        background-color: #fbf1c7;
-    }
-    .green {
-        background-color: #98971a;
-    }
-    .blue {  
-        background-color: #458588;
-        color: #076678;
-    }
-    .purple {
-        background-color: #b16286;
-        color: #8f3f71;
-    }
-    .gray {
-        background-color: #7c6f64;
-        color: #3c3836; /* full gray */
-    }
-    .orange {
-        background-color: #d65d0e;
-    }
-
 @media (prefers-color-scheme: light){
     @font-face {
         font-family: "InterMedium";
